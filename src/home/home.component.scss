@@ -1,0 +1,94 @@
+div.docs-header-section {
+    padding-top: 160px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: #3f51b5;
+}
+
+h1.mat-h1 {
+    font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    ;
+    font-size: 56px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    font-weight: 300;
+    line-height: 56px;
+    color: azure;
+}
+
+h2 {
+    font-family: Roboto, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    ;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    margin: 15px 0 25px;
+    color: white;
+}
+
+div.docs-header-start {
+    color: #3f51b5;
+    margin: 60px 0;
+    text-align: center;
+}
+
+.docs-button.mat-raised-button {
+    -webkit-tap-highlight-color: transparent;
+    background-color: red;
+    border-radius: 4px;
+    border-style: none;
+    box-shadow: rgba(0, 0, 0, .2) 0 3px 1px -2px, rgba(0, 0, 0, .14) 0 2px 2px 0, rgba(0, 0, 0, .12) 0 1px 5px 0;
+    color: rgba(0, 0, 0, .87);
+    cursor: pointer;
+    display: inline-block;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 0;
+    min-width: 64px;
+    outline: 0;
+    overflow: visible;
+    padding: 0 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transform: translate3d(0, 0, 0);
+    transition-duration: .4s, 280ms;
+    transition-property: background, box-shadow;
+    transition-timing-function: cubic-bezier(.25, .8, .25, 1), cubic-bezier(.4, 0, .2, 1);
+    user-select: none;
+    vertical-align: baseline;
+    white-space: nowrap;
+}
+
+.center {
+    margin: 20px auto;
+    padding: 46px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    width: 60%;
+}
+
+div.docs-homepage-promo-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 2;
+    width: 50%;
+}
+
+button {
+    position: relative;
+    z-index: 0;
+}
+
+.center h2 {
+    color: gray;
+}
